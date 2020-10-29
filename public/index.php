@@ -1,7 +1,7 @@
 <?php
 
-use Prototype\Prototype;
+use Prototype\App\Welcome;
 
-require(__DIR__ . "/../vendor/autoload.php");
+require(__DIR__ . "/../bootstrap/app.php");
 
-Prototype::welcome();
+Welcome::greet();
